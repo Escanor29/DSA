@@ -8,7 +8,6 @@ void bubbleSort(vector<int>& a, int n)
             if(a[j]>a[j+1]) swap(a[j],a[j+1]);
 }
 
-
 int main(){
     int n;
     cin>>n;

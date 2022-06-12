@@ -13,8 +13,6 @@ void selectionSort(vector<int>& arr, int n)
         }
 }
 
-
-
 int main(){
     int n;
     cin>>n;

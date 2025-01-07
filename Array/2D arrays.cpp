@@ -42,7 +42,7 @@ void colSum(int arr[][4],int row,int col){
 
 // Largest Row Sum
 void largestRowSum(int arr[][4],int row,int col){
-    int maxsum = INT8_MIN;
+    int maxsum = INT_MIN;
     int rowIndex = -1;
     for(int row=0; row<3; row++) {
         int sum=0;
